@@ -372,20 +372,20 @@ elif page == '📊 Step 1: Explore':
     st.title("📊 LinkedIn Dashboard")
     # Embed Tableau dashboard using HTML
     html_string = """
-    <div class='tableauPlaceholder' id='viz1723134094546' style='position: relative'>
+    <div class='tableauPlaceholder' id='viz1723218662863' style='position: relative'>
         <noscript>
             <a href='#'>
-                <img alt='Dashboard 2 ' src='https://public.tableau.com/static/images/Da/Dashboard4_17231339847690/Dashboard2/1_rss.png' style='border: none' />
+                <img alt='Dashboard 2 ' src='https://public.tableau.com/static/images/Da/Dashboard_compfest/Dashboard2/1_rss.png' style='border: none' />
             </a>
         </noscript>
         <object class='tableauViz' style='display:none;'>
             <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
             <param name='embed_code_version' value='3' />
             <param name='site_root' value='' />
-            <param name='name' value='Dashboard4_17231339847690/Dashboard2' />
+            <param name='name' value='Dashboard_compfest/Dashboard2' />
             <param name='tabs' value='no' />
             <param name='toolbar' value='yes' />
-            <param name='static_image' value='https://public.tableau.com/static/images/Da/Dashboard4_17231339847690/Dashboard2/1.png' />
+            <param name='static_image' value='https://public.tableau.com/static/images/Da/Dashboard_compfest/Dashboard2/1.png' />
             <param name='animate_transition' value='yes' />
             <param name='display_static_image' value='yes' />
             <param name='display_spinner' value='yes' />
@@ -396,7 +396,7 @@ elif page == '📊 Step 1: Explore':
         </object>
     </div>
     <script type='text/javascript'>
-        var divElement = document.getElementById('viz1723134094546');
+        var divElement = document.getElementById('viz1723218662863');
         var vizElement = divElement.getElementsByTagName('object')[0];
         if (divElement.offsetWidth > 800) {
             vizElement.style.width = '900px';
